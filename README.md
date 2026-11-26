@@ -15,7 +15,10 @@ Rukio Git は Git / GitHub のデスクトップクライアントです。こ�
 
 Git を別途インストールしてください。Linux でサインイン情報を保存するには Secret Service（GNOME Keyring / KWallet など）が必要です。各リリースの説明で対応環境を確認してください。
 
-現在の配布物は開発版です。コード署名・macOS の公証は行っていません。
+macOS 版は **v0.1.4 以降、Developer ID 署名・Apple 公証済み**です。DMG を開き、`Rukio Git.app` を「アプリケーション」へコピーして起動してください。
+
+v0.1.2 以前で「壊れている」と表示される場合は、[最新リリース](https://github.com/kidatti/RukioGit/releases/latest) の DMG をダウンロードし、アプリを置き換えてください。M4 Mac は Apple Silicon 向けの `aarch64.dmg` を選びます。
+
 `SHA256SUMS.txt` に各ファイルの SHA-256 を掲載します。
 
 GitHub が自動表示する「Source code」は配布案内のアーカイブであり、アプリのソースコードは含みません。
